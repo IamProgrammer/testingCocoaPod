@@ -1,0 +1,22 @@
+{
+  "name": "testingCocoaPod",
+  "version": "0.1.0",
+  "summary": "A short description of testingCocoaPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/testingCocoaPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Purnachandra.Obulasetty": "purnachandra.obulasetty@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/testingCocoaPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "testingCocoaPod/Classes/**/*"
+}
