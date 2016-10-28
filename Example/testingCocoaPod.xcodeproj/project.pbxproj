@@ -21,6 +21,7 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		846C6DC71DC3318500F53DA2 /* testingCocoaPodNewVersion.podspec in Resources */ = {isa = PBXBuildFile; fileRef = 846C6DC61DC3318500F53DA2 /* testingCocoaPodNewVersion.podspec */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		CD9B5C2F233DC1DF26F77E6E /* Pods_testingCocoaPod_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 621F3F1B5869A0F3AA652255 /* Pods_testingCocoaPod_Example.framework */; };
 /* End PBXBuildFile section */
@@ -58,10 +59,10 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		621F3F1B5869A0F3AA652255 /* Pods_testingCocoaPod_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testingCocoaPod_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		68F191DFA082CECC8D8E4A0F /* Pods-testingCocoaPod_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testingCocoaPod_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testingCocoaPod_Example/Pods-testingCocoaPod_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		846C6DC61DC3318500F53DA2 /* testingCocoaPodNewVersion.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = testingCocoaPodNewVersion.podspec; path = ../testingCocoaPodNewVersion.podspec; sourceTree = "<group>"; };
 		84DEDE4500EA7E6E78D49636 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		907F8D23F1452CAC37907E48 /* Pods-testingCocoaPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testingCocoaPod_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-testingCocoaPod_Tests/Pods-testingCocoaPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		B080A879D95651D99FEC6369 /* testingCocoaPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = testingCocoaPod.podspec; path = ../testingCocoaPod.podspec; sourceTree = "<group>"; };
 		B5D11B6702F87526DF5CE4AE /* Pods_testingCocoaPod_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_testingCocoaPod_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C367AA2FA6F19BBE7549C98C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D19C924A102C8EFD50000DE8 /* Pods-testingCocoaPod_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-testingCocoaPod_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-testingCocoaPod_Tests/Pods-testingCocoaPod_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -186,7 +187,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				B080A879D95651D99FEC6369 /* testingCocoaPod.podspec */,
+				846C6DC61DC3318500F53DA2 /* testingCocoaPodNewVersion.podspec */,
 				84DEDE4500EA7E6E78D49636 /* README.md */,
 				C367AA2FA6F19BBE7549C98C /* LICENSE */,
 			);
@@ -277,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				846C6DC71DC3318500F53DA2 /* testingCocoaPodNewVersion.podspec in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
